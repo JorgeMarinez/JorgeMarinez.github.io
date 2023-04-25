@@ -219,13 +219,14 @@ section {
   flex-direction: column;
 }
 .about-container .right-about .about-item .abt-text .large-text {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--color-secondary);
 }
 .about-container .right-about .about-item .abt-text .small-text {
   padding-left: 3rem;
   position: relative;
+  text-align: justify;
   text-transform: uppercase;
   font-size: 1.2rem;
   color: var(--color-grey1);
@@ -318,6 +319,18 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .php {
   width: 80%;
 }
+.about-stats .lab-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.about-stats .lab-skills .lab-skill {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #27AE60;
+}
 
 .stat-title {
   text-transform: uppercase;
@@ -335,6 +348,11 @@ section {
   height: 1px;
   background-color: var(--color-grey5);
   transform: translateX(-50%);
+}
+
+.stat-subtitle {
+  position: relative;
+  padding-top: 70px;
 }
 
 /*Timeline*/
