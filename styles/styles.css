@@ -731,12 +731,18 @@ section {
 }
 
 @media screen and (max-width: 600px) {
-  .header {
-    padding: 0 !important;
+  header {
+    padding: 0;
+  }
+  header {
+    padding: 2rem !important;
   }
   .theme-btn {
     width: 50px;
     height: 50px;
+  }
+  .header-content {
+    grid-template-columns: 1fr !important;
   }
   .left-header .h-shape {
     display: none;
@@ -752,7 +758,7 @@ section {
     text-align: center;
     padding-top: 3rem;
   }
-  .header-content .left-header .image {
+  .left-header .image {
     margin: 0 auto;
     width: 90%;
   }
@@ -764,7 +770,7 @@ section {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    background-color: var(--color-grey-5);
+    background-color: var(--color-grey5);
   }
   .controls .control {
     margin: 1rem 0.3rem;
