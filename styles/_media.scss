@@ -17,16 +17,12 @@
     }
 
     .header-content{
-        grid-template-columns: 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
     }
 
-    .left-header{ 
-        .h-shape{
-            display: none;
-        }
-    }
     .right-header{
-        grid-row: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
         padding-right: 0rem !important;
         width: 90%;
         margin: 0 auto;
@@ -37,9 +33,19 @@
         }
     }
 
+    .left-header{ 
+        
+        .h-shape{
+            display: none;
+        }
+        
+    }
+    
+
 
     .left-header .image{
-        
+        grid-row-start: -1;
+        grid-column-end: 2;
         margin: 0 auto;
         width: 90%;
     }
