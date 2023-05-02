@@ -756,7 +756,8 @@ section {
     display: none;
   }
   .left-header .image {
-    height: 100% !important;
+    height: 98% !important;
+    width: 78% !important;
   }
   .right-header {
     grid-row: 1;
