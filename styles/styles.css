@@ -747,7 +747,7 @@ section {
   }
   .left-header {
     grid-row: 1;
-    height: 100vh;
+    height: 95vh;
   }
   .left-header .h-shape {
     display: none;
@@ -755,9 +755,9 @@ section {
   .right-header {
     grid-row: 2;
     width: 90%;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
-    padding-top: 0%;
+    padding-top: 0% !important;
   }
   .right-header .name {
     font-size: 2.5rem !important;
