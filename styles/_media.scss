@@ -19,7 +19,7 @@
 
     .header-content{
         grid-template-columns: none !important;
-        grid-template-rows: repeat(2, 0.45fr) !important;
+        grid-template-rows: repeat(2, 0.475fr) !important;
         padding-bottom: 2rem;
         height: 1500px !important;
         min-height: 100vh;
@@ -29,6 +29,10 @@
     .left-header{ 
         .h-shape{
             display: none;
+        }
+        .image{
+            height: 105% !important;
+            width: 50% !important;
         }
     
         grid-row: 2;
