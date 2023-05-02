@@ -731,7 +731,6 @@ section {
   header {
     padding: 0;
     height: auto;
-    min-height: 120vh !important;
   }
   header .right-header {
     padding: 2rem !important;
@@ -743,21 +742,22 @@ section {
   .header-content {
     grid-template-columns: none !important;
     grid-template-rows: repeat(2, 1fr) !important;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
+    height: 1450px !important;
   }
   .left-header {
-    grid-row: 2;
+    grid-row: 1;
+    height: 100vh;
   }
   .left-header .h-shape {
     display: none;
   }
-  .image {
-    padding-top: 100%;
-  }
   .right-header {
-    grid-row: 1;
+    grid-row: 2;
     width: 90%;
+    height: 550px;
     margin: 0 auto;
+    padding-top: 0%;
   }
   .controls {
     top: auto;
