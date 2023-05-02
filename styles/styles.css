@@ -783,6 +783,10 @@ section {
   .about-container .left-about p {
     padding-left: 0;
   }
+  .timeline {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
   .section {
     padding: 2.5rem 2.5rem !important;
   }
