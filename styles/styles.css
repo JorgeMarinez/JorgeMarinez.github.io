@@ -778,7 +778,10 @@ section {
     width: 100% !important;
   }
   .about-container .left-about {
-    padding: 40px;
+    padding-right: 0;
+  }
+  .about-container .left-about p {
+    padding-left: 0;
   }
   .section {
     padding: 2.5rem 2.5rem !important;

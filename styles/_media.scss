@@ -64,7 +64,10 @@
             width: 100% !important;
         }
         .left-about{
-            padding: 40px;
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
             
         }
     }
