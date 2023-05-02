@@ -52,6 +52,20 @@
         }
     }
 
+    .about-container{
+        grid-template-columns: none !important;
+        grid-template-rows: repeat(2, 0.5fr) !important;
+        .right-about{
+            
+            padding-top: 2.5rem;
+
+        }
+    }
+
+    .section{
+        padding: 2.5rem 2.5rem !important;
+    }
+
     .controls{
         top: auto;
         bottom: 0;
