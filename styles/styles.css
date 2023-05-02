@@ -747,7 +747,7 @@ section {
   }
   .left-header {
     grid-row: 1;
-    height: 95vh;
+    height: 90vh;
   }
   .left-header .h-shape {
     display: none;
