@@ -746,13 +746,13 @@ section {
     padding-bottom: 6rem;
   }
   .left-header {
-    grid-row: 3;
+    grid-row: 2;
   }
   .left-header .h-shape {
     display: none;
   }
-  .left-header .image {
-    padding-top: 100px;
+  .image {
+    padding-top: 110%;
   }
   .right-header {
     grid-row: 1;
