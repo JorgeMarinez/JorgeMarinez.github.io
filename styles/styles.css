@@ -731,6 +731,7 @@ section {
   header {
     padding: 0;
     height: auto;
+    min-height: 100vh !important;
   }
   header .right-header {
     padding: 2rem !important;
