@@ -743,7 +743,7 @@ section {
     grid-template-columns: none !important;
     grid-template-rows: repeat(2, 1fr) !important;
     padding-bottom: 2rem;
-    height: 1450px !important;
+    height: 1500px !important;
   }
   .left-header {
     grid-row: 1;
@@ -755,7 +755,7 @@ section {
   .right-header {
     grid-row: 2;
     width: 90%;
-    height: 550px;
+    height: 600px;
     margin: 0 auto;
     padding-top: 0%;
   }
