@@ -8,7 +8,7 @@
 
     header .right-header{
         padding: 2rem !important;
-        padding-top: 4rem !important;
+        padding-top: 6rem !important;
     }
 
 
@@ -19,7 +19,7 @@
 
     .header-content{
         grid-template-columns: none !important;
-        grid-template-rows: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(2, 0.5fr) !important;
         padding-bottom: 2rem;
         height: 1500px !important;
         min-height: 100vh;
@@ -32,7 +32,7 @@
         }
     
         grid-row: 2;
-        height: 90vh;
+        height: 80vh;
         
     }
    

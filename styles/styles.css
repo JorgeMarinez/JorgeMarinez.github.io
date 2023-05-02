@@ -735,7 +735,7 @@ section {
   }
   header .right-header {
     padding: 2rem !important;
-    padding-top: 4rem !important;
+    padding-top: 6rem !important;
   }
   .theme-btn {
     width: 50px;
@@ -743,14 +743,14 @@ section {
   }
   .header-content {
     grid-template-columns: none !important;
-    grid-template-rows: repeat(2, 1fr) !important;
+    grid-template-rows: repeat(2, 0.5fr) !important;
     padding-bottom: 2rem;
     height: 1500px !important;
     min-height: 100vh;
   }
   .left-header {
     grid-row: 2;
-    height: 90vh;
+    height: 80vh;
   }
   .left-header .h-shape {
     display: none;
