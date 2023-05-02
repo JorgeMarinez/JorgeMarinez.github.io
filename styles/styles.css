@@ -735,6 +735,7 @@ section {
   }
   header .right-header {
     padding: 2rem !important;
+    padding-top: 4rem !important;
   }
   .theme-btn {
     width: 50px;
@@ -759,7 +760,7 @@ section {
     width: 90%;
     height: 500px;
     margin: 0 auto;
-    padding-top: 0% !important;
+    padding-top: 20% !important;
   }
   .right-header .name {
     font-size: 2.5rem !important;
