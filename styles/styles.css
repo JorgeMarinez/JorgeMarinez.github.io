@@ -746,7 +746,7 @@ section {
     padding-bottom: 6rem;
   }
   .left-header {
-    grid-row: 4;
+    grid-row: 3;
   }
   .left-header .h-shape {
     display: none;
