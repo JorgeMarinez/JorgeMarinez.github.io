@@ -2,7 +2,7 @@
     header{
         padding: 0;
         height: auto;
-        min-height: 100vh !important;
+        min-height: 2vh !important;
         
     }
 
@@ -21,6 +21,7 @@
         grid-template-rows: repeat(2, 1fr) !important;
         padding-bottom: 2rem;
         height: 1500px !important;
+        min-height: 100vh;
     }
 
 
@@ -29,13 +30,13 @@
             display: none;
         }
     
-        grid-row: 1;
+        grid-row: 2;
         height: 90vh;
         
     }
    
     .right-header{
-        grid-row: 2;
+        grid-row: 1;
         width: 90%;
         height: 500px;
         margin: 0 auto;
