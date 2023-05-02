@@ -37,7 +37,8 @@ a {
 }
 
 header {
-  min-height: 100vh;
+  height: 100vh;
+  min-height: none;
   color: var(--color-white);
   overflow: hidden;
 }
@@ -729,6 +730,8 @@ section {
 @media screen and (max-width: 600px) {
   header {
     padding: 0;
+    height: auto;
+    min-height: 120vh !important;
   }
   header .right-header {
     padding: 2rem !important;
@@ -743,13 +746,13 @@ section {
     padding-bottom: 6rem;
   }
   .left-header {
-    grid-row: 5;
+    grid-row: 4;
   }
   .left-header .h-shape {
     display: none;
   }
   .left-header .image {
-    padding-top: 5%;
+    padding-top: 100px;
   }
   .right-header {
     grid-row: 1;
