@@ -182,7 +182,7 @@ section {
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 84%;
+  height: 100%;
   width: 68%;
   margin-left: 4rem;
   background-color: var(--color-black);
@@ -743,7 +743,7 @@ section {
   }
   .header-content {
     grid-template-columns: none !important;
-    grid-template-rows: repeat(2, 0.5fr) !important;
+    grid-template-rows: repeat(2, 0.4fr) !important;
     padding-bottom: 2rem;
     height: 1500px !important;
     min-height: 100vh;
