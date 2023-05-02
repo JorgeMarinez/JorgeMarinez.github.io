@@ -819,6 +819,15 @@ section {
   .section {
     padding: 2.5rem 2.5rem !important;
   }
+  .main-title h2 {
+    font-size: 2rem;
+  }
+  .main-title h2 span {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 2.5rem;
+  }
   .controls {
     top: auto;
     bottom: 0;
