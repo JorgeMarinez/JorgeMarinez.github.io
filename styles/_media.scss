@@ -55,11 +55,13 @@
     
 
     .about-container{
-        grid-template-columns: 0.5fr !important;
+        grid-template-columns: 1fr !important;
         //grid-template-rows: repeat(2, 0.5fr) 0.5fr !important;
         
         .right-about{
+            grid-template-columns: 1fr;
             padding-top: 2.5rem;
+            width: 100% !important;
         }
         .left-about{
             padding: 40px;

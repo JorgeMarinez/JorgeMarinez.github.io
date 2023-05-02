@@ -770,10 +770,12 @@ section {
     font-size: 2.5rem !important;
   }
   .about-container {
-    grid-template-columns: 0.5fr !important;
+    grid-template-columns: 1fr !important;
   }
   .about-container .right-about {
+    grid-template-columns: 1fr;
     padding-top: 2.5rem;
+    width: 100% !important;
   }
   .about-container .left-about {
     padding: 40px;
