@@ -31,8 +31,9 @@
             display: none;
         }
         .image{
-            height: 96% !important;
-            width: 78% !important;
+            margin: 0% !important;
+            height: 94% !important;
+            width: 120% !important;
         }
     
         grid-row: 2;
@@ -101,6 +102,10 @@
             margin-top: 2.5rem;
         }
     }
+
+   .contact-content-con .left-contact .contact-info{
+        font-size: 0.9rem !important;
+   }
 
 
     .contact-content-con .right-contact .i-c-2{
