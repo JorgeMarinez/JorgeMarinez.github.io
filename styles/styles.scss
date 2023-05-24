@@ -51,7 +51,7 @@ section{
     position: absolute;
     left: 0;
     top: 0;
-    padding: 3rem 18rem;
+    padding: 3rem 14rem;
 }
 
 .section{
@@ -187,8 +187,9 @@ section{
         }
         .image{
             border-radius: var(--br-sm-2);
-            height: 84%;
-            width: 66%;
+            margin-bottom: 2px;
+            height: 83.75%;
+            width: 64%;
             
             margin-left: 4rem;
             background-color: var(--color-black);
