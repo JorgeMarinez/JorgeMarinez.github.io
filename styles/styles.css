@@ -181,9 +181,10 @@ section {
           clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 .header-content .left-header .image {
-  background-position-y: 20%;
-  height: 83.5%;
+  height: 38.35rem;
   width: 65%;
+  margin-top: 1.25rem;
+  margin-left: 4rem;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
