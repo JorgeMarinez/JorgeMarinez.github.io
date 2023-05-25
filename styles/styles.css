@@ -181,9 +181,9 @@ section {
           clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 .header-content .left-header .image {
-  margin-top: 10px;
-  height: 81.5%;
-  width: 64%;
+  background-position-y: 20%;
+  height: 83.5%;
+  width: 65%;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
@@ -387,7 +387,7 @@ section {
 
 .stat-subtitle {
   position: relative;
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 /*Timeline*/
@@ -767,12 +767,10 @@ section {
   }
   .left-header .image {
     margin: 0% !important;
-    height: 100% !important;
-    width: 125% !important;
-    border-left: 2rem !important;
-    padding-left: 2rem !important;
-    margin-left: 2rem !important;
-    margin-bottom: 2rem !important;
+    margin: 0% !important;
+    height: 104.5% !important;
+    width: 100% !important;
+    margin-bottom: 7.7rem !important;
   }
   .right-header {
     grid-row: 1;

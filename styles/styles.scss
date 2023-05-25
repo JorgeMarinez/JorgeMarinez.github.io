@@ -186,10 +186,10 @@ section{
             clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
         }
         .image{
-            //border-radius: var(--br-sm-2);
-            margin-top: 10px;
-            height: 81.5%;
-            width: 64%;
+            background-position-y: 20%;
+        
+            height: 83.5%;
+            width: 65%;
             
             margin-left: 4rem;
             background-color: var(--color-black);
@@ -386,6 +386,7 @@ section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
+
         .lab-skill{
             display: flex;
             flex-direction: column;
@@ -416,7 +417,7 @@ section{
 
 .stat-subtitle{
     position: relative;
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 
