@@ -51,7 +51,7 @@ section{
     position: absolute;
     left: 0;
     top: 0;
-    padding: 3rem 14rem;
+    padding: 3rem 13rem;
 }
 
 .section{
@@ -187,9 +187,9 @@ section{
         }
         .image{
             
-            height: 38.35rem;
+            height: 37.9rem;
             width: 65%;
-            margin-top: 1.25rem;
+            margin-top: 0.2rem;
             margin-left: 4rem;
             
             margin-left: 4rem;
@@ -515,6 +515,8 @@ section{
                 margin-bottom: 1.5rem;
             }
             .icons{
+                padding: 0.5rem;
+                padding-top: 1.5rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;

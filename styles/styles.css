@@ -49,7 +49,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3rem 14rem;
+  padding: 3rem 13rem;
 }
 
 .section {
@@ -181,9 +181,9 @@ section {
           clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 .header-content .left-header .image {
-  height: 38.35rem;
+  height: 37.9rem;
   width: 65%;
-  margin-top: 1.25rem;
+  margin-top: 0.2rem;
   margin-left: 4rem;
   margin-left: 4rem;
   background-color: var(--color-black);
@@ -486,6 +486,8 @@ section {
   margin-bottom: 1.5rem;
 }
 .portfolios .portfolio-item .hover-items .icons {
+  padding: 0.5rem;
+  padding-top: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
