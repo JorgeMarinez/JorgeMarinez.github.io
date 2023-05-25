@@ -254,7 +254,7 @@ section {
   position: relative;
   text-align: justify;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--color-grey1);
   letter-spacing: 2px;
 }
@@ -771,9 +771,9 @@ section {
   .left-header .image {
     margin: 0% !important;
     margin: 0% !important;
-    height: 104.5% !important;
-    width: 100% !important;
-    margin-bottom: 7.7rem !important;
+    height: 117.2% !important;
+    width: 99% !important;
+    margin-bottom: 10.9rem !important;
   }
   .right-header {
     grid-row: 1;
