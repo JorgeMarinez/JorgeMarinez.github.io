@@ -260,7 +260,7 @@ section{
                 display: flex;
                 flex-direction: column;
                 .large-text{
-                    font-size: 2rem;
+                    font-size: 1rem;
                     font-weight: 700;
                     color: var(--color-secondary)
                 }
@@ -291,7 +291,7 @@ section{
         display: flex;
         flex-direction: column;
         .large-text{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-weight: 700;
             color: var(--color-secondary)
         }
@@ -395,7 +395,35 @@ section{
             font-weight: 500;
             color: #27AE60;
         }   
-    }   
+    }
+    .lab-skills{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+
+        .lab-skill{
+            display: flex;
+            flex-direction: column;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: #27AE60;
+        }   
+    }
+    .lab-exp{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        color:#dbe1e8;
+        ul {
+            list-style: none; /* Remove default bullets */
+          }
+          li::before {content: "•"; color: white;
+            display: inline-block; width: 1em;
+            margin-left: -1em
+        }
+    } 
 }
 
 .stat-title{
